@@ -1,0 +1,17 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:transparent;
+    color:rgb(255,255,255);
+    padding: 16px;
+    
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: auto ;
+    text-align: center;
+  }
+  

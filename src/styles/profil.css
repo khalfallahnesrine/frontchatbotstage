@@ -1,0 +1,19 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+    }
+
+    /* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .dashboard-container {
+      padding: 10px; /* Adjust padding as needed */
+    }
+    /* You can apply specific styles for each child element based on your design */
+  }
+  

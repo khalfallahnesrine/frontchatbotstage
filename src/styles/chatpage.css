@@ -1,0 +1,33 @@
+.user_img{height: 40px;
+width: 40px;
+border:1.5px solid #0f1012;
+}
+.avatar{
+    display: inline-block;
+}
+.form-control{
+    display: inline-block;
+}
+@media (max-width: 399px) {
+    .container {
+      margin-left: 10%; /* Adjust as needed */
+      bottom: 70%;
+      right: 10%;
+      width:80%;
+      
+    }
+    .row {
+        justify-content: flex-start; /* Adjust as needed */
+      }
+    
+      .col-md-8,
+      .col-lg-6,
+      .col-xl-4 {
+        flex: 100%; /* Take full width on small screens */
+      }
+    
+      .card-header {
+        border-top-right-radius: 5px;
+      }
+}
+  

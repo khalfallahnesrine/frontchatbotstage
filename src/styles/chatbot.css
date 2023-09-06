@@ -1,0 +1,53 @@
+/* Gradient animation keyframes */
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Gradient background for the button */
+  .btn-gradient {
+    background: linear-gradient(45deg, #bdd7fb, #070747);
+    background-size: 200% 200%;
+    animation: gradientAnimation 4s infinite; 
+    color: white;
+  }
+  .backgradient {
+    background: linear-gradient(45deg, #bdd7fb, #070747);
+    background-size: 200% 200%;
+    animation: gradientAnimation 4s infinite; 
+    color: white;
+  }
+  .table {
+    background-color: linear-gradient(45deg, #bdd7fb, #070747);
+    background-size: 200% 200%;
+    animation: gradientAnimation 4s infinite; 
+    color: white;
+  }
+  .avatar {
+    width: 30px; /* Set the width and height for the circular avatar */
+    height: 30px;
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden; /* Hide overflow from the circular shape */
+    display: inline-block; /* Align inline with the chatbot name */
+    margin-right: 8px; /* Add some spacing between the avatar and name */
+  }
+  
+  .avatar img {
+    width: 100%; /* Make the image cover the circular space */
+    height: 100%;
+    object-fit: cover; /* Cover the circular space without distortion */
+  }
+  @media (max-width: 399px) {
+    .table-responsive {
+      width: 100%; /* Adjust as needed */
+      overflow-x: scroll;
+      overflow-y: auto;
+    }
+  }
